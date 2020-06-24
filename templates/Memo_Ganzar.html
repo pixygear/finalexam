@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th width='33%'>과목명</th>
+            <th width="66%">정보시스템 통합 및 실습</th>
+        </tr>
+    </table>
+    <form id="add-form" onsubmit="addMemo(this); return false;">
+            <input type="text" name="memo" placeholder="메모 내용" required />
+            <div class="controls">
+                <button type="submit">저장</button>
+            </div>
+    </form>
+
+</body>
+</html>
